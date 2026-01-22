@@ -2,7 +2,6 @@
   "name": "redis-stress-test",
   "type": "module",
   "dependencies": {
-    "ioredis": "^5.4.1",
-    "dotenv": "^16.4.5"
+    "ioredis": "^5.4.1"
   }
 }

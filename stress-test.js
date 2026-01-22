@@ -1,8 +1,5 @@
 import Redis from 'ioredis';
 
-// Try to load dotenv if available (local dev), skip in container
-try { await import('dotenv/config'); } catch {}
-
 const REDIS_URL = process.env.REDIS_URL;
 if (!REDIS_URL) {
   console.error('Error: REDIS_URL environment variable is required');
